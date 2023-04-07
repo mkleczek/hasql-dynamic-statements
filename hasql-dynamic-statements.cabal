@@ -62,4 +62,4 @@ test-suite test
     tasty-quickcheck >=0.9 && <0.11
   mixins:
     hasql hiding (Hasql.Session),
-    hasql-api (Hasql.Api.Eff.Session as Hasql.Session)
+    hasql-api (Hasql.Api.Eff.Session.Legacy as Hasql.Session)
